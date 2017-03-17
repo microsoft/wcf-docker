@@ -7,5 +7,4 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPref
 # install WCF services required components.
 RUN Add-WindowsFeature NET-WCF-HTTP-Activation45; \
     Add-WindowsFeature NET-WCF-TCP-Activation45; \
-    Add-WindowsFeature NET-WCF-Pipe-Activation45; \
     Add-WindowsFeature Web-WebSockets
