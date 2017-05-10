@@ -49,7 +49,7 @@ You will see an output similar to this:
 
 You can connect the running container using the IP address and configured port, `http://172.28.103.001:83/<wcfservice.svc>` in the example shown.
 
-For a comprehensive tutorial on running an WCF service in a container, check out [WCF service samples in container](Link to WCF service sample git repo).
+For a comprehensive tutorial on running an WCF service in a container, check out [WCF service samples in container](https://github.com/Microsoft/wcf-docker-samples)
 
 ## Supported Docker Versions
 This image has been tested on Docker Versions 1.12.2-cs2-ws-beta or higher.
