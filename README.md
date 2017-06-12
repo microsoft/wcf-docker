@@ -1,14 +1,16 @@
-![WCF Docker Image](https://avatars2.githubusercontent.com/u/6154722?v=3&s=200)
 # WCF Docker Image
 
 ## Supported tags and respective `Dockerfile` links
 
-* 4.6.2-windowsservercore-10.0.14393.693, latest ([windowsservercore/Dockerfile](https://github.com/microsoft/iis-docker/blob/master/windowsservercore/Dockerfile))
+* 4.7-windowsservercore-10.0.14393.693, latest ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
+* 4.6.2-windowsservercore-10.0.14393.693 ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile))
 
 This image is built from the [microsoft/wcf-docker GitHub repo](https://github.com/microsoft/wcf-docker).
 
 ## What is WCF?
 The Windows Communication Foundation (WCF) is  a framework for building service-oriented applications. Using WCF, you can send data as asynchronous messages from one service endpoint to another. A service endpoint can be part of a continuously available service hosted by IIS, or it can be a service hosted in an application.
+
+![WCF Docker Image](https://avatars2.githubusercontent.com/u/6154722?v=3&s=200)
 
 ## How to use this image?
 ### Create a Dockerfile with your WCF service IIS Hosted or selfhosted
@@ -31,7 +33,7 @@ $ docker build -t wcfserviceimage .
 $ docker run -d -p 83:83 --name my-wcfservice wcfserviceimage
 ```
 
-There is no need to specify an `ENTRYPOINT` in your Dockerfile since the `microsoft/iis` base image already includes an entrypoint application that monitors the status of the IIS World Wide Web Publishing Service (W3SVC).
+There is no need to specify an `ENTRYPOINT` in your Dockerfile since an entrypoint application is already specified that monitors the status of the IIS World Wide Web Publishing Service (W3SVC).
 
 ### Verify in the browser
 
@@ -59,7 +61,7 @@ MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE TERMS
 
 CONTAINER OS IMAGE
 
-Microsoft Corporation (or based on where you live, one of its affiliates) (referenced as “us,” “we,” or “Microsoft”) licenses this Container OS Image supplement to you (“Supplement”). You are licensed to use this Supplement in conjunction with the underlying host operating system software (“Host Software”) solely to assist running the containers feature in the Host Software. The Host Software license terms apply to your use of the Supplement. You may not use it if you do not have a license for the Host Software. You may use this Supplement with each validly licensed copy of the Host Software.
+Microsoft Corporation (or based on where you live, one of its affiliates) (referenced as ï¿½us,ï¿½ ï¿½we,ï¿½ or ï¿½Microsoftï¿½) licenses this Container OS Image supplement to you (ï¿½Supplementï¿½). You are licensed to use this Supplement in conjunction with the underlying host operating system software (ï¿½Host Softwareï¿½) solely to assist running the containers feature in the Host Software. The Host Software license terms apply to your use of the Supplement. You may not use it if you do not have a license for the Host Software. You may use this Supplement with each validly licensed copy of the Host Software.
 
 ## User Feedback
 If you have any issues or concerns, reach out to us through a [GitHub issue](https://github.com/Microsoft/wcf-docker/issues/new).
