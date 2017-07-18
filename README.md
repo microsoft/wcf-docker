@@ -17,7 +17,7 @@ The Windows Communication Foundation (WCF) is  a framework for building service-
 ```
 FROM microsoft/wcf
 
-RUN mkdir C:\WcfService
+WORKDIR WcfService
 
 RUN powershell -NoProfile -Command \
     Import-module IISAdministration; \
@@ -25,7 +25,7 @@ RUN powershell -NoProfile -Command \
 
 EXPOSE 83
 
-ADD content/ /WcfService
+COPY content/ .
 ```
 You can then build and run the Docker image:
 ```
