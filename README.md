@@ -2,8 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* 4.7-windowsservercore-10.0.14393.1358, latest ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
-* 4.6.2-windowsservercore-10.0.14393.1358 ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile))
+* 4.7-windowsservercore-10.0.14393.1715, latest ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
+* 4.6.2-windowsservercore-10.0.14393.1715 ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile))
 
 This image is built from the [microsoft/wcf-docker GitHub repo](https://github.com/microsoft/wcf-docker).
 
