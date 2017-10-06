@@ -2,10 +2,10 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* 4.7-windowsservercore-10.0.14393.1715, latest ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
-* 4.6.2-windowsservercore-10.0.14393.1715 ([windowsservercore/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile))
+* 4.7, latest ([wcf-docker/4.7/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile)) based on windows server core.
+* 4.6.2 ([wcf-docker/4.6.2/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile)) based on windows server core.
 
-This image is built from the [microsoft/wcf-docker GitHub repo](https://github.com/microsoft/wcf-docker).
+This image is uploaded to the [microsoft/wcf docker hub repo](https://hub.docker.com/r/microsoft/wcf/) with the information of the supported specific tags.
 
 ## What is WCF?
 The Windows Communication Foundation (WCF) is  a framework for building service-oriented applications. Using WCF, you can send data as asynchronous messages from one service endpoint to another. A service endpoint can be part of a continuously available service hosted by IIS, or it can be a service hosted in an application.
