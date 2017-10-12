@@ -1,9 +1,8 @@
-# WCF Docker Image
-
 ## Supported tags and respective `Dockerfile` links
 
-* 4.7, latest ([wcf-docker/4.7/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile)) based on windows server core.
-* 4.6.2 ([wcf-docker/4.6.2/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile)) based on windows server core.
+* 4.7.1, latest ([wcf-docker/4.7.1/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1/Dockerfile))
+* 4.7 ([wcf-docker/4.7/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
+* 4.6.2 ([wcf-docker/4.6.2/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile))
 
 This image is uploaded to the [microsoft/wcf docker hub repo](https://hub.docker.com/r/microsoft/wcf/) with the information of the supported specific tags.
 
