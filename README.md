@@ -1,4 +1,8 @@
-## Supported tags and respective `Dockerfile` links
+# Supported Windows Server 2016 Version 1709 (Fall Creators Update) amd64 tags
+
+- [`4.7.1-windowsservercore-1709` (*4.7.1-windowsservercore-1709/Dockerfile*)](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1-windowsservercore-1709/Dockerfile)
+
+# Supported Windows Server 2016 amd64 tags
 
 * 4.7.1, latest ([wcf-docker/4.7.1/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1/Dockerfile))
 * 4.7 ([wcf-docker/4.7/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
