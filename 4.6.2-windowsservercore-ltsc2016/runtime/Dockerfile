@@ -1,4 +1,4 @@
-FROM microsoft/aspnet:4.6.2
+FROM microsoft/aspnet:4.6.2-windowsservercore-10.0.14393.1944
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
