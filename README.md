@@ -1,12 +1,12 @@
 # Supported Windows Server 2016 Version 1709 (Fall Creators Update) amd64 tags
 
-- [`4.7.1-windowsservercore-1709` (*4.7.1-windowsservercore-1709/Dockerfile*)](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1-windowsservercore-1709/Dockerfile)
+- [`4.7.1-windowsservercore-1709`,`4.7.1`,`latest` (*4.7.1-windowsservercore-1709/Dockerfile*)](https://github.com/Microsoft/wcf-docker/tree/master/4.7.1-windowsservercore-1709/runtime)
 
 # Supported Windows Server 2016 amd64 tags
 
-* 4.7.1, latest ([wcf-docker/4.7.1/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1/Dockerfile))
-* 4.7 ([wcf-docker/4.7/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7/Dockerfile))
-* 4.6.2 ([wcf-docker/4.6.2/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2/Dockerfile))
+- [`4.7.1-windowsservercore-ltsc2016`,`4.7.1`,`latest` (*4.7.1-windowsservercore-ltsc2016/Dockerfile*)](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1-windowsservercore-ltsc2016/runtime/Dockerfile)
+- [`4.7-windowsservercore-ltsc2016`,`4.7` (*4.7-windowsservercore-ltsc2016/Dockerfile*)](https://github.com/Microsoft/wcf-docker/blob/master/4.7-windowsservercore-ltsc2016/runtime/Dockerfile)
+- [`4.6.2-windowsservercore-ltsc2016`,`4.6.2` (*4.6.2-windowsservercore-ltsc2016/Dockerfile*)](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2-windowsservercore-ltsc2016/runtime/Dockerfile)
 
 This image is uploaded to the [microsoft/wcf docker hub repo](https://hub.docker.com/r/microsoft/wcf/) with the information of the supported specific tags.
 
