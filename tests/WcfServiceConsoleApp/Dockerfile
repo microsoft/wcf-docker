@@ -1,0 +1,7 @@
+ARG IMAGE
+FROM $IMAGE
+EXPOSE 80
+EXPOSE 808
+WORKDIR /app
+COPY bin/debug .
+CMD WcfServiceConsoleApp.exe
