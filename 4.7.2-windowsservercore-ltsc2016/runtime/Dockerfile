@@ -1,4 +1,4 @@
-FROM microsoft/aspnet:4.7.2-windowsservercore-Itsc2016
+FROM microsoft/aspnet:4.7.2-windowsservercore-ltsc2016
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
