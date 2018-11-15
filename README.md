@@ -1,3 +1,7 @@
+# Supported Windows Server 2019 amd64 tags
+
+* 4.7.2-windowsservercore-ltsc2019, 4.7.2, latest ([4.7.2-windowsservercore-ltsc2019/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-ltsc2019/runtime/Dockerfile))
+
 # Supported Windows Server, version 1803 amd64 tags
 
 * 4.7.2-windowsservercore-1803, 4.7.2, latest ([4.7.2-windowsservercore-1803/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-1803/runtime/Dockerfile))
