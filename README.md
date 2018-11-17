@@ -1,21 +1,41 @@
 # Supported Windows Server 2019 amd64 tags
 
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7.2-windowsservercore-ltsc2019`
+
 * 4.7.2-windowsservercore-ltsc2019, 4.7.2, latest ([4.7.2-windowsservercore-ltsc2019/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-ltsc2019/runtime/Dockerfile))
 
 # Supported Windows Server, version 1803 amd64 tags
+
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7.2-windowsservercore-1803`
 
 * 4.7.2-windowsservercore-1803, 4.7.2, latest ([4.7.2-windowsservercore-1803/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-1803/runtime/Dockerfile))
 
 # Supported Windows Server, version 1709 amd64 tags
 
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7.2-windowsservercore-1709`
+
 * 4.7.2-windowsservercore-1709, 4.7.2, latest ([4.7.2-windowsservercore-1709/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-1709/runtime/Dockerfile))
+
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7.1-windowsservercore-1709`
+
 * 4.7.1-windowsservercore-1709, 4.7.1 ([4.7.1-windowsservercore-1709/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1-windowsservercore-1709/runtime/Dockerfile))
 
 # Supported Windows Server 2016 amd64 tags
 
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7.2-windowsservercore-ltsc2016`
+
 * 4.7.2-windowsservercore-ltsc2016, 4.7.2, latest ([4.7.2-windowsservercore-ltsc2016/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-ltsc2016/runtime/Dockerfile))
+
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7.1-windowsservercore-ltsc2016`
+
 * 4.7.1-windowsservercore-ltsc2016, 4.7.1 ([4.7.1-windowsservercore-ltsc2016/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.1-windowsservercore-ltsc2016/runtime/Dockerfile))
+
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.7-windowsservercore-ltsc2016`
+
 * 4.7-windowsservercore-ltsc2016, 4.7 ([4.7-windowsservercore-ltsc2016/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7-windowsservercore-ltsc2016/runtime/Dockerfile))
+
+* `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.6.2-windowsservercore-ltsc2016`
+
 * 4.6.2-windowsservercore-ltsc2016, 4.6.2 ([4.6.2-windowsservercore-ltsc2016/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.6.2-windowsservercore-ltsc2016/runtime/Dockerfile))
 
 This image is uploaded to the [microsoft/wcf docker hub repo](https://hub.docker.com/r/microsoft/wcf/) with the information of the supported specific tags.
@@ -64,7 +84,7 @@ You will see an output similar to this:
 
 You can connect the running container using the IP address and configured port, `http://172.28.103.001:83/<wcfservice.svc>` in the example shown.
 
-For a comprehensive tutorial on running an WCF service in a container, check out [WCF service samples in container](https://github.com/Microsoft/wcf-docker-samples)
+For a comprehensive tutorial on running an WCF service in a container, check out [WCF service samples in container](https://github.com/Microsoft/dotnet-framework-docker/tree/master/samples/wcfapp)
 
 ## Supported Docker Versions
 This image has been tested on Docker Versions 1.12.2-cs2-ws-beta or higher.
