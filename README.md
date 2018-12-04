@@ -46,7 +46,17 @@ There is no need to specify an `ENTRYPOINT` in your Dockerfile since an entrypoi
 
 ### Verify in the browser
 
-You can connect to the running container using 'http://localhost:83/<wcfservice.svc>` in the example shown.
+For windows version 1803 or higher, you can connect to the running container using 'http://localhost:83/<wcfservice.svc>` in the example shown.
+
+For windows versions prior to 1803, you cannot use `http://localhost` to browse your site from the container host. This is because of a known behavior in WinNAT for those versions which requires you to use the IP address of the container.
+
+Once the container starts, you'll need to finds its IP address so that you can connect to your running container from a browser. You use the `docker inspect` command to do that:	
+ `docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" my-wcfservice`	
+ You will see an output similar to this:	
+ ```	
+172.28.103.001	
+```	
+ You can connect to the running container using the IP address and configured port, `http://172.28.103.001:83/<wcfservice.svc>` in the example shown.
 
 For a comprehensive tutorial on running an WCF service in a container, check out [WCF service samples in container](https://github.com/Microsoft/wcf-docker-samples)
 
