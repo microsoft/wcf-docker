@@ -1,10 +1,13 @@
-# Supported Windows Server, version 1903 amd64 tags
+# This reporitory has been archived.
+# WCF docker images are now being built from the [dotnet-framework-docker](https://github.com/microsoft/dotnet-framework-docker) reporitory.
+
+## Supported Windows Server, version 1903 amd64 tags
 
  `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.8-windowsservercore-1903`
 
 - 4.8-windowsservercore-1903, 4.8, latest ([4.8-windowsservercore-1903/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.8-windowsservercore-1903/runtime/Dockerfile))
 
-# Supported Windows Server 2019 amd64 tags
+## Supported Windows Server 2019 amd64 tags
 
  `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.8-windowsservercore-ltsc2019`
 
@@ -14,7 +17,7 @@
 
 - 4.7.2-windowsservercore-ltsc2019, 4.7.2, latest ([4.7.2-windowsservercore-ltsc2019/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-ltsc2019/runtime/Dockerfile))
 
-# Supported Windows Server, version 1803 amd64 tags
+## Supported Windows Server, version 1803 amd64 tags
 
  `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.8-windowsservercore-1803`
 
@@ -24,7 +27,7 @@
 
 - 4.7.2-windowsservercore-1803, 4.7.2, latest ([4.7.2-windowsservercore-1803/runtime/Dockerfile](https://github.com/Microsoft/wcf-docker/blob/master/4.7.2-windowsservercore-1803/runtime/Dockerfile))
 
-# Supported Windows Server 2016 amd64 tags
+## Supported Windows Server 2016 amd64 tags
 
  `docker pull mcr.microsoft.com/dotnet/framework/wcf:4.8-windowsservercore-ltsc2016`
 
